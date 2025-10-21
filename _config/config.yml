@@ -1,0 +1,9 @@
+---
+Name: webium-assets-sync
+---
+# Configuration for Assets Sync module
+
+Webium\AssetsSync\Task\ImportFilesFromDirectoryTask:
+  # The directory name within public/assets/ to import from
+  # Default: 'import'
+  import_directory: 'import'
