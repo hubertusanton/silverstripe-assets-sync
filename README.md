@@ -60,14 +60,9 @@ Execute the import task via command line:
 vendor/bin/sake dev/tasks/ImportFilesFromDirectoryTask flush=1
 ```
 
-**With Docker:**
-```bash
-docker exec -it [container] vendor/bin/sake dev/tasks/ImportFilesFromDirectoryTask flush=1
-```
-
 **With DDEV:**
 ```bash
-ddev exec vendor/bin/sake dev/tasks/ImportFilesFromDirectoryTask flush=1
+ddev sake dev/tasks/ImportFilesFromDirectoryTask flush=1
 ```
 
 ### 4. View Results
