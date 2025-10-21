@@ -36,6 +36,14 @@ class ImportFilesFromDirectoryTask extends BuildTask
     protected $description = 'Imports all files from a specified directory in public/assets/ and publishes them as File objects in the database';
 
     /**
+     * URL segment for the task
+     *
+     * @var string
+     * @config
+     */
+    private static $segment = 'ImportFilesFromDirectoryTask';
+
+    /**
      * The directory name within public/assets/ to import from
      * Can be configured via YML config:
      *
