@@ -24,7 +24,7 @@ vendor/bin/sake dev/build flush=1
 
 Or with DDEV:
 ```bash
-ddev exec vendor/bin/sake dev/build flush=1
+ddev sake dev/build flush=1
 ```
 
 ## Usage
